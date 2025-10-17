@@ -1,0 +1,36 @@
+/* Brain Compare - Estilos CSS */
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#sketch-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    body {
+        padding: 10px;
+    }
+    
+    #sketch-container {
+        padding: 10px;
+    }
+}
