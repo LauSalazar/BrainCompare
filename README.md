@@ -10,6 +10,12 @@ Este proyecto simula dos cerebros:
 
 La visualización utiliza diferentes frecuencias de ondas cerebrales (delta, theta, alpha, beta, gamma) para crear patrones visuales que representan la actividad neuronal.
 
+## 📸 Captura de Pantalla
+
+![Brain Compare Visualization](assets/images/BrainCompareImage.png)
+
+*Visualización mostrando la diferencia entre un cerebro sano (izquierda) y uno con Alzheimer (derecha)*
+
 ## 🚀 Instalación y Uso
 
 1. **Clona o descarga** este repositorio
@@ -28,6 +34,9 @@ brainCompare/
 ├── index.html              # Archivo HTML principal
 ├── sketch.js               # Código principal de p5.js
 ├── style.css              # Estilos CSS
+├── assets/                 # Recursos del proyecto
+│   └── images/            # Imágenes (capturas de pantalla)
+│       └── BrainCompareImage.png
 └── README.md               # Este archivo
 ```
 
